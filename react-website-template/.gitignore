@@ -1,0 +1,17 @@
+!/.gitattributes
+/package.json
+!/metadata.yml
+!/mkdocs.yml
+source/.gitignore
+.DS_Store
+
+dist
+node_modules/*
+
+package-lock.json
+
+*.log
+*.build.*
+*.env.*.local
+
+.vscode
