@@ -1,0 +1,12 @@
+!/.gitattributes
+/package.json
+.DS_Store
+
+dist
+node_modules/*
+
+package-lock.json
+
+*.log
+*.build.*
+*.env.*.local
