@@ -1,9 +1,26 @@
 import React from 'react';
+import { Article } from '../../components';
+import { blog01, blog02, blog03, blog04, blog05} from './imports'
 import './blog.css';
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div className='template__blog section__padding' id='blog'>
+      <div className='template__blog-heading'>
+        <h1 className='gradient__text'>Blog Content</h1>
+      </div>
+      <div className='tempalte__blog-container'>
+        <div className='template__blog-container__groupA'>
+          <Article imgUrl={blog01} date="Sep 23, 2023" title="Sample Title"/>
+        </div>
+        <div className='template__blog-container__groupB'>
+          <Article imgUrl={blog02} date="Sep 23, 2023" title="Sample Title"/>
+          <Article imgUrl={blog03} date="Sep 23, 2023" title="Sample Title"/>
+          <Article imgUrl={blog04} date="Sep 23, 2023" title="Sample Title"/>
+          <Article imgUrl={blog05} date="Sep 23, 2023" title="Sample Title"/>
+        </div>
+      </div>
+    </div>
   )
 }
 
