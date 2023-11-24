@@ -8,7 +8,7 @@
     margin: 4rem;
 
     border-radius: 1rem;
-    background: var(--gradient-bar);
+    background: var(--color-highlighted-bg);
 }
 
 .template__cta-content p{

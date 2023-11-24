@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
+import SaintPatrick from '../../assets/Saint_Patrick.jpeg';
 
 const Header = () => {
   return (
@@ -16,12 +16,12 @@ const Header = () => {
         </div>
 
         <div className='template__header-content__people'>
-          <img src={people} alt='An image of people'/>
+          <img src={people} alt='People'/>
           <p>Testing things so that there is content on the page!</p>
         </div>
       </div>
       <div className='template__header-image'>
-          <img src={ai} alt='ai'/>
+          <img src={SaintPatrick} alt='Saint Patrick'/>
         </div>
     </div>
   )

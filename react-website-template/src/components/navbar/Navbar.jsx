@@ -1,15 +1,24 @@
 import React, {useState} from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/St. Patrick Curriculum.png';
 import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href='#home'>Home</a></p>
-  <p><a href='#whatTemplate'>What is a template?</a></p>
-  <p><a href='#possibility'>Testing</a></p>
-  <p><a href='#features'>Testing</a></p>
-  <p><a href='#blog'>Testing</a></p>
+  <ul>
+    <li>
+      <a href='#home'>Home</a>
+    </li>
+    <li>
+      <a href='#whatTemplate'>Content</a>
+    </li>
+    <li>
+      <a href='#possibility'>Skills</a>
+    </li>
+    <li>
+      <a href='#features'>Pedagogy</a>
+    </li>
+  </ul>
   </>
 )
 
@@ -26,7 +35,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='template__navbar-sign'>
-        <p>Sign in</p>
+        <a>Sign in</a>
         <button type='button'>Sign up</button>
       </div>
       <div className='template__navbar-menu'>
@@ -39,7 +48,7 @@ const Navbar = () => {
             <div className='template__navbar-menu_container-links'>
               <Menu />
               <div className='template__navbar-menu_container-links-sign'>
-                <p>Sign in</p>
+                <a>Sign in</a>
                 <button type='button'>Sign up</button>
               </div>
             </div>

@@ -12,6 +12,13 @@
     width: 100%;
     text-align: center;
     margin-bottom: 3rem;
+    align-content: center;
+}
+
+.template__footer-heading img {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 .template__footer-heading h1 {

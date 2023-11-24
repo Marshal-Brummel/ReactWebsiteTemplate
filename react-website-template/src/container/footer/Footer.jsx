@@ -1,22 +1,17 @@
 import React from 'react';
 import './footer.css';
+import branding from '../../assets/St. P + Company.png'
 
 const Footer = () => {
   return (
     <div className='template__footer section__padding'>
       <div className='template__footer-heading'>
-        <h1 className='gradient__text'>Footer header for testing purposes</h1>
+        <img src={branding} alt="St. Patrick's and Company Logo"/>
       </div>
       <div className='template__footer-btn'>
         <p>Request Site Access</p>
       </div>
       <div className='template__footer-links'>
-        <div className='template__footer-links__logo'>
-          <img src={gpt3Logo} alt="logo"/>
-          <p>
-            Sample Address for content
-          </p>
-        </div>
         <div className='template__footer-links__div'>
           <h4>
             Links
