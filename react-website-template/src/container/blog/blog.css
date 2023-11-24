@@ -6,8 +6,6 @@
 .template__blog-heading {
     width: 100%;
     text-align: left;
-
-    margin-bottom: 5rem;
 }
 
 .template__blog-heading h1 {
@@ -25,7 +23,7 @@
 
 .template__blog-container__groupA {
     flex: .75;
-    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .template__blog-container__groupB {
