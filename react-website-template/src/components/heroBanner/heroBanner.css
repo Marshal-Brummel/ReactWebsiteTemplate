@@ -1,0 +1,23 @@
+.template__banner-container {
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 35px;
+}
+
+.template__banner-container img {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.template__banner-container-full img {
+    width: 100%;
+}
+
+.template__banner-container p {
+    width: 50%;
+    text-overflow: wrap;
+    text-shadow: 0 0 5px black;
+}
+
+ 
