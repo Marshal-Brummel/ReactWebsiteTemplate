@@ -4,6 +4,11 @@
     align-items: stretch;
 
     padding: 2rem 6rem;
+
+    /* Sticky Navbar*/
+    position: sticky; top: 0;
+    z-index: 2;
+    background-color: var(--color-bg);
 }
 
 .template__navbar-links {
