@@ -8,40 +8,11 @@ const Footer = () => {
       <div className='template__footer-heading'>
         <img src={branding} alt="St. Patrick's and Company Logo"/>
       </div>
-      <div className='template__footer-btn'>
-        <p>Request Site Access</p>
-      </div>
-      <div className='template__footer-links'>
-        <div className='template__footer-links__div'>
-          <h4>
-            Links
-          </h4>
-          <p>Link 1</p>
-          <p>Link 2</p>
-          <p>Link 3</p>
-          <p>Link 4</p>
-        </div>
-        <div className='template__footer-links__div'>
-          <h4>
-            School
-          </h4>
-          <p>Link 1</p>
-          <p>Link 2</p>
-          <p>Link 3</p>
-          <p>Link 4</p>
-        </div>
-        <div className='template__footer-links__div'>
-          <h4>
-            Pedagogy
-          </h4>
-          <p>Link 1</p>
-          <p>Link 2</p>
-          <p>Link 3</p>
-          <p>Link 4</p>
-        </div>
+      <div className='template__email-contact'>
+        <a href="mailto:info@stpatrickcurriculum.org?subject=request%20for%20info%20from%20website">info@stpatrickcurriculum.org</a>
       </div>
       <div className='template__footer-copyright'>
-        <p>All rights reserved.</p>
+        <p>© 2023 All rights reserved.</p>
       </div>
     </div>
   )
