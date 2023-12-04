@@ -4,3 +4,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as Possibility } from './possibility/Possibility';
 export { default as WhatTemplate } from './whatTemplate/WhatTemplate';
+export {default as WelcomeContainer} from './welcomeContainer/welcomeContainer';
