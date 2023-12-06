@@ -1,4 +1,5 @@
 import React from 'react';
+import celticCross from '../../assets/CelticCross.jpg';
 
 import './welcomeContainer.css';
 
@@ -7,17 +8,25 @@ const welcomeContainer = () => {
     <div className='template__welcome'>
       <div className='template__welcome-split'>
         <div className='template__welcome-left'>
-          <div className='template__welcome-heading'>
-            <h1>
-              Welcome!
-            </h1>
+          <div className='template__welcome-left-top'>
+            <div className='template__welcome-heading'>
+              <h1>
+                Welcome!
+              </h1>
+            </div>
+            <p>
+              For all those interested in the renewal of Catholic classical education, here you will find The Saint Patrick Curriculum, guidance on how to teach it, information on classical education and pedagogy, and coaching on how to run a Catholic classical school.  We look forward to sharing these treasures we have collected and the wisdom we have gathered from many who have trodden this path before us.  
+            </p>
+            <p>
+              We also plan to provide an open forum for conversation and collaboration among teachers and other contributors.  We look forward to learning more from you!  
+            </p>
           </div>
-          <p>
-            For all those interested in the renewal of Catholic classical education, here you will find The Saint Patrick Curriculum, guidance on how to teach it, information on classical education and pedagogy, and coaching on how to run a Catholic classical school.  We look forward to sharing these treasures we have collected and the wisdom we have gathered from many who have trodden this path before us.  
-          </p>
-          <p>
-            We also plan to provide an open forum for conversation and collaboration among teachers and other contributors.  We look forward to learning more from you!  
-          </p>
+          <img src={celticCross}/>
+          <div className='template__welcome-left-bottom'>
+            <p>
+              <b>Please note: </b>We have been and will continue to offer this curriculum and teacher training for free. We are motivated by the understanding that Catholic education, properly understood, is education for salvation.  It is one of the main methods the Church has for passing on the Faith.
+            </p>
+          </div>
         </div>
         <div className='template__welcome-right'>
           <p>

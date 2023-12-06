@@ -22,23 +22,35 @@
 }
 
 .template__welcome-left {
-    background-color: var(--color-highlighted-bg);
-    width: 40%;
-    padding: 3em;
-    margin: 4em;
+    width: 45%;
     font-size: 20px;
     font-style: italic;
     line-height: 1.75em;
+}
+
+.template__welcome-left img{
+    width: 35%;
+    border-radius: 50%;
+    top: -120px;
+    left: 485px;
 }
 
 .template__welcome-left p{
     padding: .5em;
 }
 
+.template__welcome-left-top,
+.template__welcome-left-bottom {
+    background-color: var(--color-highlighted-bg);
+    height: fit-content;
+    padding: 3em 3em 3em 3em;
+    margin: 0em 4em 0em 4em;
+}
+
 .template__welcome-right {
     width: 40%;
-    padding: 3em;
-    margin: 4em;
+    padding: 3em 3em 0em 3em;
+    margin: 4em 4em 0em 4em;
     font-size: 20px;
     line-height: 1.75em;
 }
