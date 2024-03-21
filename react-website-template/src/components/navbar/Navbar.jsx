@@ -7,16 +7,16 @@ const Menu = () => (
   <>
   <ul>
     <li>
-      <a href='#home'>Home</a>
+      <a href='/'>Home</a>
     </li>
     <li>
-      <a href='#whatTemplate'>Content</a>
+      <a href='/content'>Content</a>
     </li>
     <li>
-      <a href='#possibility'>Skills</a>
+      <a href='/skills'>Skills</a>
     </li>
     <li>
-      <a href='#features'>Pedagogy</a>
+      <a href='/pedagogy'>Pedagogy</a>
     </li>
   </ul>
   </>
