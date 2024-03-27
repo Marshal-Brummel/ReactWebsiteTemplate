@@ -3,10 +3,18 @@ import { HeroBanner } from '../../components';
 import celticCross from '../../assets/CelticCross.jpg';
 
 import './welcomeContainer.css';
+import AccordianSection from '../../components/accordian/AccordianSection';
+import Accordian from '../../components/accordian/Accordian';
 
 const welcomeContainer = () => {
   return (
     <>
+    <div>
+      {data.map((item, i) => (
+        <AccordianSection section={item}></AccordianSection>
+      ))}
+    </div>
+    <Accordian data={data}></Accordian>
     <HeroBanner fullscreen={true} imgURL="https://assets-eu-01.kc-usercontent.com/aa24ba70-9a12-01ae-259b-7ef588a0b2ef/c550dd40-3a7c-4330-b4a0-6c3d70b7ceeb/header-st-patrick-s-cathedral-dublin-city.jpg?w=1280&h=480&fm=jpg&fit=crop" text="~ The Saint Patrick Curriculum* ~
     Catholic, classical materials and training for PK - 8 teachers and schools "/>    
     <div className='template__welcome'>
@@ -68,5 +76,25 @@ const welcomeContainer = () => {
     </>
   )
 }
+
+const data = [
+  {
+    question: 'Question 1',
+    answer: 'Answer #1 so that I can have some data.'
+  },
+  {
+    question: 'Question 2',
+    answer: 'Answer #2 so that I can have some data.'
+  },
+]
+
+
+const data2 =
+  {
+    question: 'Question 1',
+    answer: 'Answer #1 so that I can have some data.'
+  }
+
+
 
 export default welcomeContainer
