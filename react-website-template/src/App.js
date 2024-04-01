@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Blog, Footer, WelcomeContainer } from  './container';
-import { Home, Pricing } from './pages';
+import { Admin, Editor, Home, Pricing } from './pages';
 import { Navbar } from './components';
 import './App.css';
 
@@ -19,6 +19,12 @@ const App = () => {
       break;
     case '/pedagogy': 
       page = <Pricing/>; 
+      break;
+    case '/admin': 
+      page = <Admin/>; 
+      break;
+    case '/editor': 
+      page = <Editor/>; 
       break;
   }
   return (
