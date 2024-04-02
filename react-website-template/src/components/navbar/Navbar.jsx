@@ -18,6 +18,12 @@ const Menu = () => (
     <li>
       <a href='/pedagogy'>Pedagogy</a>
     </li>
+    <li>
+      <a href='/admin'>Admin</a>
+    </li>
+    <li>
+      <a href='/editor'>Editor</a>
+    </li>
   </ul>
   </>
 )
