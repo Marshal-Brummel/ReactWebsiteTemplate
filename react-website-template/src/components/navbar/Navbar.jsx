@@ -41,8 +41,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='template__navbar-sign'>
-        <a>Sign in</a>
-        <button type='button'>Sign up</button>
+        <a href='/signin'>Sign In</a>
+        <a href='/signup'>Sign up</a>
       </div>
       <div className='template__navbar-menu'>
         {toggleMenu 
@@ -54,8 +54,8 @@ const Navbar = () => {
             <div className='template__navbar-menu_container-links'>
               <Menu />
               <div className='template__navbar-menu_container-links-sign'>
-                <a>Sign in</a>
-                <button type='button'>Sign up</button>
+                <a href='/signin'>Sign In</a>
+                <a href='/signup'>Sign up</a>
               </div>
             </div>
           </div>
