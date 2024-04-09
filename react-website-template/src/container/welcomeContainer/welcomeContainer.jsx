@@ -25,7 +25,7 @@ const welcomeContainer = () => {
               We also plan to provide an open forum for conversation and collaboration among teachers and other contributors.  We look forward to learning more from you!  
             </p>
           </div>
-          <img src={celticCross}/>
+          <img src={celticCross} alt='Celtic Cross'/>
           <div className='template__welcome-left-bottom'>
             <p>
               <b>Please note: </b>We have been and will continue to offer this curriculum and teacher training for free. We are motivated by the understanding that Catholic education, properly understood, is education for salvation.  It is one of the main methods the Church has for passing on the Faith.

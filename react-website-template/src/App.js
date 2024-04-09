@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Blog, Footer, WelcomeContainer } from  './container';
-import { Admin, Editor, Home, Pricing } from './pages';
+import { Admin, Editor, Home, Pricing, SignIn, SignUp } from './pages';
 import { Navbar } from './components';
 import './App.css';
 
@@ -25,6 +25,15 @@ const App = () => {
       break;
     case '/editor': 
       page = <Editor/>; 
+      break;
+    case '/signin': 
+      page = <SignIn/>; 
+      break;
+    case '/signup': 
+      page = <SignUp/>; 
+      break;
+    default:
+      page = <WelcomeContainer/>;
       break;
   }
   return (
