@@ -1,5 +1,4 @@
 !/.gitattributes
-/package.json
 !/metadata.yml
 !/mkdocs.yml
 source/.gitignore
